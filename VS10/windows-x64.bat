@@ -10,7 +10,7 @@ REM   --------------- Strawberry perl -------------------
 set PATH=C:\Strawberry\perl\bin;%PATH%
 
 REM   --------------- re2c & gnuwin32 make ----------------------
-set PATH=D:\bin;%PATH%
+set PATH=D:\bin;D:\bin\make-4.1;%PATH%
 
 REM    ----- Visual Studio 2010 -----
 REM --  windows-x64 ---
