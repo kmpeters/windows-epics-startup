@@ -3,15 +3,17 @@
 setlocal
 
 :GET_VS_VER
-echo Versions of Visual Studio available: 10, 15
+echo Versions of Visual Studio available: 10, 15, 19, 22
 set /p vs=Enter Visual Studio Version: 
 REM echo %vs%
 if defined vs (
   if "%vs%" == "10" set verIsValid=1
   if "%vs%" == "15" set verIsValid=1
+  if "%vs%" == "19" set verIsValid=1
+  if "%vs%" == "22" set verIsValid=1
 ) else (
   echo   Using default: Visual Studio 10
-  set vs=10
+  set vs=22
   goto GET_ARCH
 )
 
