@@ -12,7 +12,7 @@ if defined vs (
   if "%vs%" == "19" set verIsValid=1
   if "%vs%" == "22" set verIsValid=1
 ) else (
-  echo   Using default: Visual Studio 10
+  echo   Using default: Visual Studio 22
   set vs=22
   goto GET_ARCH
 )
